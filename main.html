@@ -1,53 +1,61 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-	<!-- the entire body must be written by student -->
-	<form action="/action_page.php">
-	<label for="name"> Name* </label>
-	<input type = "text" placeholder = "#username" id="#name" required>
-	<br>
-	<br>
-	<label for="Email"> Email* </label>
-	<input type = "text" placeholder = "#email" id="#email" required>
-	<br>
-	<br>
-	<label for="Gender"> Gender*  </label> 
-	<label for="Male"> Male </label>
-	<input type = "radio" name="Gender" value ="Male "  >
-	<label for=Female"> Female </label>
-	<input type = "radio" name="Gender"value ="Female "  >
-	<br>
-	<br>
-	 <label for="Laptops Brands">Laptop Brands</label>
-  <select name="laptop" id="#laptop">
-    <option value="Apple">Apple</option>
-    <option value=<select name="options" id="#laptop">"Asus">Asus</option>
-    <option value="Hp">HP</option>
-  </select>
-	<br>
-	<br>
-	<label for="Age"> Age* </label>
-	<input type = "text" placeholder ="#age " id ="#age" required >
-	<br>
-	<br>
-	<label for="DOB"> DOB* </label>
-	<input type = "date"  id="#dob" value ="dob " required>
-	<br>
-	<br>
-	<label for="Password"> Password* </label>
-	<input type = "Password" placeholder = "#password" id="#password" required>
-	<br>
-	<br>
-	<input type="url" placeholder = "#portfolio" >
-		<br><br>
-	<button type="submit"> submit botton</button>
-		</form>
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+	
+	<html>
+	
+	<head>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+		<!-- the entire body must be written by student -->
+		    <form action="" method="post">
+	        <div>
+	            <label for="name">Name</label>
+	            <input type="text" id="name" required>
+	        </div>
+	        <div>
+	            <label for="email">Email</label>
+	            <input type="email" id="email" required>
+	        </div>
+	        <div>
+	            <label id = "gender">Gender</label>
+	            <br>
+	            <input type="radio" name="gender"  required>male <br>
+	            <input type="radio" name="gender" required>female <br>
+	        </div>
+	        <div>
+	            <label for="laptop">Laptop</label>
+	            <select id="laptop">
+	                <option value="Apple">Apple</option>
+	                <option value="Asus">Asus</option>
+	                <option value="HP">HP</option>
+	            </select>
+	        </div>
+	        <div>
+	            <label for="age">Age</label>
+	            <input type="number" name="" id="age" required>
+	        </div>
+	        <div>
+	            <label for="dob">DOB</label>
+	            <input type="date" name="" id="dob" required>
+	        </div>
+	        <div>
+	            <label for="password">Password</label>
+	            <input type="password" id="password" required>
+	        </div>
+	
+	        <div>
+	            <label for="portfolio">Portfolio</label>
+	            <input type="url" name="" id="portfolio">
+	        </div>
+	        <div>
+				<button type ="submit"> submit </button>
+			</div>
+	
+	    </form>
+	    <script type="text/javascript" src="./script.js">
+	</script>
+	
+	</body>
+	
+	</html>
